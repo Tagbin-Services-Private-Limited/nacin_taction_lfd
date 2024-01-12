@@ -79,6 +79,8 @@ const App = () => {
     if (window.require) {
       const { ipcRenderer } = window.require("electron");
       ipcRenderer.on("socket-data", (event, data) => {
+        console.log("Event recived", event)
+        console.log("Data recieved", data)
         setEvent(data["event-clicked"])
       });
       return () => {
