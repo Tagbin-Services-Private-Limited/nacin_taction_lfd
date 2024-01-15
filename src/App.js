@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Box } from "@mui/material";
-import Bg1 from "./assets/images/first.png"
+import Bg1 from "./assets/images/first.jpg"
 import Bg2 from "./assets/images/second.png"
 import biomedical_and_healthcare_wastes from "./assets/images/biomedical_and_healthcare_wastes.jpg"
 import used_oils from "./assets/images/used_oils.jpg"
