@@ -97,7 +97,7 @@ const App = () => {
         alignItems: "center",
         justifyContent: "center",
       }}>
-      <img src={eventImageMap[event] || Bg1} alt="bg" />
+      <img src={eventImageMap[event] || Bg1} alt="bg" style={{ width: "100%", height: "100%" }} />
     </Box >
   );
 }
