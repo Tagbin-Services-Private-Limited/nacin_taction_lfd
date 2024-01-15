@@ -54,6 +54,7 @@ const eventImageMap = {
   'halons': halons,
   'carbon_tetrachloride': carbon_tetrachloride,
   'methyl_bromide': methyl_bromide,
+  'cites': gorilla,
   'gorilla': gorilla,
   'sea_turtle': sea_turtle,
   'giant_panda': giant_panda,
